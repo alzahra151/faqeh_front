@@ -1,0 +1,49 @@
+<nav class="hero-navbar">
+    <img src="/images/Pic1.png" alt="Navbar Background" class="navbar-image" />
+    <div class="nav-content">
+
+        <mat-sidenav-container>
+            <mat-sidenav #sidenav mode="over">
+                <img class="h-14	 w-24" src="/images/Pic4.png">
+                <hr />
+                <nav>
+                    <a routerLink="home" (click)="clickHandler()" routerLinkActive="active">Home</a>
+                    <a routerLink="about" (click)="clickHandler()" routerLinkActive="active">About</a>
+                    <a routerLink="login" (click)="clickHandler()" routerLinkActive="active">Login</a>
+                    <a routerLink="sign-up" (click)="clickHandler()" routerLinkActive="active">Sign Up</a>
+                    <a routerLink="contact" (click)="clickHandler()" routerLinkActive="active">Contact</a>
+                </nav>
+            </mat-sidenav>
+            <mat-sidenav-content>
+                <mat-toolbar color="primary">
+                    <header>
+                        <nav class="mr-10">
+                            <button class="contactBtn px-4 py-1 text-2xl text-white">تواصل معنا </button>
+                            <a routerLink="sign-up" routerLinkActive="active">العروض </a>
+                            <a routerLink="login" routerLinkActive="active">المنتجات </a>
+                            <a routerLink="about" routerLinkActive="active">من نحن </a>
+                            <a routerLink="home" routerLinkActive="active">الرئيسية</a>
+                            <!-- <a routerLink="contact" routerLinkActive="active">Contact</a> -->
+                          
+                        </nav>
+                        <img class="h-28 w-44 me-20" src="/images/Pic42.png">
+                        <mat-icon class="" (click)="sidenav.toggle()">menu</mat-icon>
+                    </header>
+                </mat-toolbar>
+                <section>
+                    <div class="  content text-gray-400">
+                        <h1 class="text-4xl font-extrabold flex items-center justify-between">
+                            <span class="me-3"> 70 </span> <span>عاما من الابداع</span>
+                        </h1>
+                        <p class="text-lg max-w-md ">
+                            من تراثنا السعودي حيث تتجسد الأاناقة .. نحن
+                            ومع كل خيط نغزل لكم قصًة كل يوم
+                        </p>
+                        <button class="contactBtn mt-8 px-10 py-2 text-lg"> تعرف أكثر  </button>
+                    </div>
+
+                </section>
+            </mat-sidenav-content>
+        </mat-sidenav-container>
+    </div>
+</nav>

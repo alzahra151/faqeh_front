@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import "../node_modules/@angular/material/prebuilt-themes/azure-blue.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: arabicFontBold;
+    src: url('/fonts/Noto_Kufi_Arabic/static/NotoKufiArabic-ExtraBold.ttf');
+}
+@font-face {
+    font-family: arabicFont;
+    src: url('/fonts/Noto_Kufi_Arabic/static/NotoKufiArabic-Regular.ttf');
+}
+html, body {
+  font-family: 'Roboto';
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+//   font-family:arabicFontBoild !important;
+}
+
+
+*{
+    text-align: right;
+  direction: rtl;
+   font-family:arabicFont !important;
+}
+h1>*{
+   font-family:arabicFontBold !important;  
+}
+h1{
+    font-family:arabicFontBold !important;    
+}
+.contactBtn {
+  text-decoration: none;
+ border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+   border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+ border: 2px solid #754E1A;
+}
+
+
+
+
+

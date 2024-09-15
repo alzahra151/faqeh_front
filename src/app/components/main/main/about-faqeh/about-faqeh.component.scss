@@ -1,0 +1,39 @@
+.background-container {
+  background-image: url('/images/Background1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px;
+  min-height: 30rem;
+//   background-color: black;
+  color: white; /* Optional: change text color to ensure it's visible on the background */
+}
+.fram-caontainer{
+    height: 35rem;
+}
+.img-frame{
+position: absolute;
+top: 7%;
+left: 10%;
+ height: 100%;
+    max-width: 100%;
+// top: 10%;
+bottom: -10%;
+right: -10;
+}
+p{
+    font-family: arabicFont !important;
+}
+.background-container-banner{
+    background-image: url('/images/Pic8.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px;
+  min-height: 55rem;
+//   background-color: black;
+  color: white; /* Optional: change text color to ensure it's visible on the background */ 
+}
+.text-weight{
+    font-size: 8rem;
+}
